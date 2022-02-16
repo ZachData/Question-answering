@@ -1,5 +1,5 @@
 # Question-Answering Bot
-Use NER and question-answering pipelines for answering your questions based on Wikipedia's expansive texts. 
+Here, we use NER and question-answering pipelines for answering your questions based on Wikipedia's expansive texts. 
 
 ## Dataset
 
