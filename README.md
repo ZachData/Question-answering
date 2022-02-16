@@ -16,4 +16,4 @@ For personal use, create a config.py file which contains all local paths, or rep
 
 NLP has never been easier thanks to HuggingFace. Using the Pipeline utility, we can quickly and effectively deploy popular, high-performing named-entity recognition (NER) and question-answering (QA) pretrained NLP models in very few lines. 
 
-We use byte-pair encoding for both NER and QA. For NER we use a fine-tuned BERT model on CoNLL-2003, and for QA we use a fine-tuned BERT model on sst2. These are both the defaults for their respective tasks, and they are found to produce quite good results in very little time.
+We use byte-pair encoding for both NER and QA. For NER we use a fine-tuned BERT model on CoNLL-2003, and for QA we use a fine-tuned BERT model on SQuAD. These are both the defaults for their respective tasks, and they are found to produce quite good results in very little time.
