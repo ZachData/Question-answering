@@ -10,7 +10,6 @@ import os
 import re
 import unidecode
 import pandas as pd
-from tqdm import tqdm
 import config
 
 os.chdir(r'/home/zach/Desktop/Datasets/Wiki/')
