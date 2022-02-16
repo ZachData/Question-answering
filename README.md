@@ -1,7 +1,7 @@
-# Question-answering
-Use NER and question-answering pipelines for answering your questions based on Wikipedia text 
+# Question-Answering Bot
+Use NER and question-answering pipelines for answering your questions based on Wikipedia's expansive texts. 
 
-# Dataset
+## Dataset
 
 A MySQL database was built from a wikipedia dump. The official XML dump used to create the database can be found [here.](https://en.wikipedia.org/wiki/Wikipedia:Database_download)
 Please torrent the files as opposed to downloading them directly, as this is easier on the server. The file should be around 50Gb in size.
@@ -12,7 +12,7 @@ I chose to limit the number of elements in each CSV containing the texts to 10^4
 
 For personal use, create a config.py file which contains all local paths, or replace config uses in your local files. 
 
-# Model
+## Model
 
 NLP has never been easier thanks to HuggingFace. Using the Pipeline utility, we can quickly and effectively deploy popular, high-performing named-entity recognition (NER) and question-answering (QA) pretrained NLP models in very few lines. 
 
